@@ -114,8 +114,8 @@ int main(int argc, char **argv)
 		strcat(path,"/index.lua");
 	}else{
 		strcpy(start_dir,"/");
-		strcpy(cur_dir,"/"); // Set current dir for GW Mode
-		strcpy(path,"/index.lua");
+		strcpy(cur_dir,"/3ds/Tinker"); // Set current dir for GW Mode
+		strcpy(path,"/3ds/Tinker/index.lua");
 	}
 	
 	while(aptMainLoop())
